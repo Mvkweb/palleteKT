@@ -1,0 +1,18 @@
+name: PalleteKTExample
+version: 1.0.0
+main: com.palletekt.palletekt.example.ExampleGradientPlugin
+api-version: '1.21'
+author: PalleteKT
+description: Example plugin demonstrating the PalleteKT library
+
+commands:
+  gradient:
+    description: Get an item with animated gradient text
+    usage: /gradient <wave|pulse|breathe|flow|rainbow|fire|ocean>
+    permission: palletekt.example
+    permission-message: You don't have permission to use this command
+
+permissions:
+  palletekt.example:
+    description: Allows using the /gradient command
+    default: true
